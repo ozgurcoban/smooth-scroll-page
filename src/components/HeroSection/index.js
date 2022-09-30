@@ -23,7 +23,8 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        // FIXME: video not autoplaying on production
+        <VideoBg autoPlay={true} loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
         <HeroH1>Uppsalas Elfte Nation</HeroH1>

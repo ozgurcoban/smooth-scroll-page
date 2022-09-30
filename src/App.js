@@ -4,7 +4,9 @@ import Home from './pages/index';
 function App() {
   return (
     <Router>
-      <Home />
+      <Routes>
+        <Route path='/' element={<Home />} exact />
+      </Routes>
     </Router>
   );
 }
