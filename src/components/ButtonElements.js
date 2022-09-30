@@ -14,14 +14,14 @@ export const Button = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 
   &:hover {
-    transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
     background: ${({ primary }) => (primary ? '#fff' : '#01BF71')};
   }
 `;
