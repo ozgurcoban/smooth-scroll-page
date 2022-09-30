@@ -105,11 +105,15 @@ export const NavBtnLink = styled(LinkR)`
   outline: none;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
   text-decoration: none;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
     background: #fff;
     color: #010606;
   }
