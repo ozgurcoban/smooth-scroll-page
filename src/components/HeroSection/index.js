@@ -23,7 +23,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        // FIXME: video not autoplaying on production
+        {/* // FIXME: video not autoplaying on production */}
         <VideoBg autoPlay={true} loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
