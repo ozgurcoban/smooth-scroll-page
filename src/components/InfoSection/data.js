@@ -1,8 +1,8 @@
 export const homeObjOne = {
   id: 'about',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Premium Bank',
   headline: 'Unlimited Transactions with zero fees',
   description:
@@ -13,7 +13,7 @@ export const homeObjOne = {
   alt: 'Car',
   dark: true,
   primary: true,
-  darkText: false,
+  darkText: true,
 };
 export const homeObjTwo = {
   id: 'discover',
@@ -34,9 +34,9 @@ export const homeObjTwo = {
 };
 export const homeObjThree = {
   id: 'services',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Premium Bank',
   headline: 'Unlimited Transactions with zero fees',
   description:
@@ -47,5 +47,5 @@ export const homeObjThree = {
   alt: 'Car',
   dark: true,
   primary: true,
-  darkText: false,
+  darkText: true,
 };

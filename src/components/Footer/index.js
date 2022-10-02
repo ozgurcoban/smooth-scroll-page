@@ -65,8 +65,10 @@ const Footer = () => {
           </FooterLinksContainer>
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo to='/'>dolla</SocialLogo>
-              <WebsiteRights>dolla © 2020 All rights reserved.</WebsiteRights>
+              <SocialLogo to='/'>yoyo</SocialLogo>
+              <WebsiteRights>
+                yoyo © {new Date().getFullYear()}All rights reserved.
+              </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink
                   href='//www.facebook.com'
